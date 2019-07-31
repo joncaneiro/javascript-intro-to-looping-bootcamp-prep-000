@@ -16,8 +16,10 @@ function whileLoop(n) {
 }
 
 
-function doWhileLoop(n) {
+function doWhileLoop(num) {
+  var i = 0
+  
   do {
     console.log("I run once regardless.")
-  } while ((i = i + 1) < n) ;
+  } while ((i = i + 1) < num) ;
 }
